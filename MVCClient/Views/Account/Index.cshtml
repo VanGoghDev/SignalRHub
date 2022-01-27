@@ -34,12 +34,12 @@ else
 <script src="~/js/signalr/dist/browser/signalr.min.js"></script>
 <script>
     const hubConnection = new signalR.HubConnectionBuilder()
-        .withUrl("http://localhost:5000/notificationsHub")
+        .withUrl("https://localhost:1000/notificationsHub")
         .build();
 
     let userName = "";
     // получение сообщения от сервера
-    hubConnection.on("Receive", function (message, userName) {
+    hubConnection.on("ReceiveMessage", function (message, userName) {
 
         // создаем элемент <b> для имени пользователя
         let userNameElem = document.createElement("b");
