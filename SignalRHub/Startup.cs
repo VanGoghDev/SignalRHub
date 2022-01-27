@@ -33,8 +33,7 @@ namespace SignalRHub
                     b
                     .AllowAnyMethod()
                     .AllowAnyHeader()
-                    .AllowCredentials()
-                    .SetIsOriginAllowed(hostname => true);
+                    .AllowCredentials().WithOrigins("https://localhost:44385/");
                 });
             });
             services.AddSignalR();
@@ -66,7 +65,7 @@ namespace SignalRHub
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapHub<NotificationsHub>("/chatHub");
+                endpoints.MapHub<NotificationsHub>("/notificationsHub");
             });
         }
     }
