@@ -33,7 +33,8 @@ namespace SignalRHub
                     b
                     .AllowAnyMethod()
                     .AllowAnyHeader()
-                    .AllowCredentials().WithOrigins("https://localhost:44385/");
+                    .AllowCredentials()
+                    .SetIsOriginAllowed(hostname => true);
                 });
             });
             services.AddSignalR();

@@ -13,8 +13,6 @@ C:\github\SignalRHub\WebClient\bin\Debug\netcoreapp3.1\WebClient.Views.pdb
 C:\github\SignalRHub\WebClient\obj\Debug\netcoreapp3.1\WebClient.csprojAssemblyReference.cache
 C:\github\SignalRHub\WebClient\obj\Debug\netcoreapp3.1\WebClient.AssemblyInfoInputs.cache
 C:\github\SignalRHub\WebClient\obj\Debug\netcoreapp3.1\WebClient.AssemblyInfo.cs
-C:\github\SignalRHub\WebClient\obj\Debug\netcoreapp3.1\WebClient.csproj.CoreCompileInputs.cache
-C:\github\SignalRHub\WebClient\obj\Debug\netcoreapp3.1\WebClient.MvcApplicationPartsAssemblyInfo.cache
 C:\github\SignalRHub\WebClient\obj\Debug\netcoreapp3.1\WebClient.RazorAssemblyInfo.cache
 C:\github\SignalRHub\WebClient\obj\Debug\netcoreapp3.1\WebClient.RazorAssemblyInfo.cs
 C:\github\SignalRHub\WebClient\obj\Debug\netcoreapp3.1\WebClient.TagHelpers.input.cache
