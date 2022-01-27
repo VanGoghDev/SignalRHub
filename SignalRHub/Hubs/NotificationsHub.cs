@@ -15,7 +15,12 @@ namespace SignalRHub.Hubs
 
         public override Task OnConnectedAsync()
         {
+            var username = "";
+            username = Context.GetHttpContext().Request.Query["username"];
+            if (!string.IsNullOrEmpty(username))
+                Groups.AddToGroupAsync(Context.ConnectionId, username);
             UserHandler.ConnectedIds.Add(Context.ConnectionId);
+
             return base.OnConnectedAsync();
         }
 
