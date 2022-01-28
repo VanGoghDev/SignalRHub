@@ -10,7 +10,9 @@ namespace SignalRHub.Hubs
     {
         public async Task SendMessage(string userFrom, string message)
         {
-            await Clients.All.SendAsync("ReceiveMessage", userFrom, message);
+            //await Clients.All.SendAsync("ReceiveMessage", userFrom, message);
+            await Clients.Group("'bob@mail.com'").SendAsync("ReceiveMessage", userFrom, message);
+
         }
 
         public override Task OnConnectedAsync()
