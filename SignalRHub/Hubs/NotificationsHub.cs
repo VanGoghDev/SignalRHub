@@ -1,28 +1,24 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace SignalRHub.Hubs
 {
-    public class NotificationsHub : Hub
+    public class NotificationsHub : Hub, IHub
     {
         public async Task SendMessage(string userFrom, string message)
         {
             //await Clients.All.SendAsync("ReceiveMessage", userFrom, message);
             await Clients.Group("'bob@mail.com'").SendAsync("ReceiveMessage", userFrom, message);
-
         }
 
         public override Task OnConnectedAsync()
         {
-            var username = "";
-            username = Context.GetHttpContext().Request.Query["username"];
+            var username = Context.GetHttpContext().Request.Query["username"];
             if (!string.IsNullOrEmpty(username))
                 Groups.AddToGroupAsync(Context.ConnectionId, username);
             UserHandler.ConnectedIds.Add(Context.ConnectionId);
-
             return base.OnConnectedAsync();
         }
 
