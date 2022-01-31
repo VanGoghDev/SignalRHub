@@ -38,6 +38,8 @@ namespace SignalRHub
                 });
             });
             services.AddSignalR();
+            services.AddSwaggerGen();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +48,8 @@ namespace SignalRHub
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI();
             }
             else
             {

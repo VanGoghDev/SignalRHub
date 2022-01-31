@@ -17,5 +17,11 @@ namespace SignalRHub.Controllers
             return Ok();
         }
 
+
+        [HttpGet]
+        public JsonResult TestSwagger(string txt)
+        {
+            return new JsonResult(txt);
+        }
     }
 }

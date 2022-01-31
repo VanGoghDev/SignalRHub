@@ -13,8 +13,6 @@ C:\github\SignalRHub\SignalRHub\bin\Debug\netcoreapp3.1\SignalRHub.Views.pdb
 C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.csprojAssemblyReference.cache
 C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.AssemblyInfoInputs.cache
 C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.AssemblyInfo.cs
-C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.csproj.CoreCompileInputs.cache
-C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.MvcApplicationPartsAssemblyInfo.cache
 C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.RazorAssemblyInfo.cache
 C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.RazorAssemblyInfo.cs
 C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.TagHelpers.input.cache
@@ -36,3 +34,10 @@ C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.dll
 C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.pdb
 C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.genruntimeconfig.cache
 C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.csproj.CopyComplete
+C:\github\SignalRHub\SignalRHub\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\github\SignalRHub\SignalRHub\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\github\SignalRHub\SignalRHub\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\github\SignalRHub\SignalRHub\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.csproj.CoreCompileInputs.cache
+C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.MvcApplicationPartsAssemblyInfo.cs
+C:\github\SignalRHub\SignalRHub\obj\Debug\netcoreapp3.1\SignalRHub.MvcApplicationPartsAssemblyInfo.cache
